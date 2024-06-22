@@ -17,15 +17,15 @@ npm run dev
 ## Connecting to the backend 
 Clone and run the backend repo linked upove.
 
-The backend url is hardcoded in the [defs.ts](src\lib\defs.ts) file. It may change depending on the available sockets.
+The backend url is hardcoded in the [defs.ts](src/lib/defs.ts) file. It may change depending on the available sockets.
 
 ## Screenshots
 
-![screenshot](Github\Screenshots\Login.png)
+![screenshot](Github/Screenshots/Login.png)
 
-![screenshot](Github\Screenshots\SignUp.png)
-![screenshot](Github\Screenshots\Home1.png)
-![screenshot](Github\Screenshots\Home2.png)
+![screenshot](Github/Screenshots/SignUp.png)
+![screenshot](Github/Screenshots/Home1.png)
+![screenshot](Github/Screenshots/Home2.png)
 
 ## License
 [Apache 2.0](LICENSE)
