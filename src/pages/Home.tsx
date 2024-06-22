@@ -357,7 +357,7 @@ export default function Home() {
     let groups = await GetGroups();
     if (groups !== null && groups.length > 0) {
       let items = await GetGroupItems(groups[currentProj].id);
-      if (items !== null) {
+      if (items !== null && items !== undefined) {
         groups[currentProj].TodoItems = items;
       }
       if (JSON.stringify(groups) !== JSON.stringify(todoGroups)) {

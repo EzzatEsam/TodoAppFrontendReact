@@ -66,7 +66,7 @@ const TodosArea: React.FC<{
     let result = await DeleteItem(todo.id);
     if (result) updateFn();
   };
-
+  
   const completedTodos = group.TodoItems.filter((todo) => todo.isDone);
   const notCompletedTodos = group.TodoItems.filter((todo) => !todo.isDone);
 

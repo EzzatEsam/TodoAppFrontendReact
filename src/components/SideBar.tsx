@@ -72,7 +72,10 @@ const SideBar: React.FC<{
               }`}
             >
               <button
-                onClick={() => setCurrentFn(i)}
+                onClick={() => {
+                  setCurrentFn(i);
+                  setToBeDeleted(null);
+                }}
                 className="flex-1 text-left"
               >
                 {todoGroup.name}
