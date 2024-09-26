@@ -3,8 +3,9 @@
 ## About
 A frontend implementation of a todo app using React and tailwind.
 
-This is only the frontend, the backend is an ASP.NET Core Web API that can be found in this repo [TodoProj API Dotnet
-](https://github.com/EzzatEsam/TodoApplicationBackendAspDotNet).
+This is only the frontend, You can use one of the following compatible backends:
+1. [Todo App API ASP.NET core](https://github.com/EzzatEsam/TodoApplicationBackendAspDotNet).
+2. [Todo App API NestJS](https://github.com/EzzatEsam/TodoApp_API_NestJS)
 
 ## How to use
 To run the frontend, run the following command in the terminal:
